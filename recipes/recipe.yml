@@ -52,5 +52,10 @@ modules:
       enabled:
         - tailscaled.service
 
+  - type: fonts
+    fonts:
+      nerd-fonts:
+        - IosevkaTerm
+
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 
