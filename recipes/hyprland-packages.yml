@@ -12,3 +12,4 @@ install:
   - hyprpaper
   - hyprlock
   - foot
+  - waybar
