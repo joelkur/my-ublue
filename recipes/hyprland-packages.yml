@@ -11,3 +11,4 @@ install:
   - polkit
   - hyprpaper
   - hyprlock
+  - foot
