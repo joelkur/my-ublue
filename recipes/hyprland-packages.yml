@@ -1,4 +1,13 @@
 type: rpm-ostree
 install:
   - hyprland
-  - hyprland-devel
+  - kitty
+  - dunst
+  - pipewire
+  - wireplumber
+  - xdg-desktop-portal-hyprland
+  - qt5-qtwayland
+  - qt6-qtwayland
+  - polkit
+  - hyprpaper
+  - hyprlock
