@@ -1,0 +1,17 @@
+# image will be published to ghcr.io/<user>/<name>
+name: sericea-nvidia
+# description will be included in the image's metadata
+description: This is my personal OS image.
+
+# the base image to build on top of (FROM) and the version tag to use
+base-image: ghcr.io/ublue-os/sericea-nvidia
+image-version: latest
+
+# module configuration, executed in order
+# you can include multiple instances of the same module
+modules:
+  - from-file: common-files.yml
+  - from-file: common-packages.yml
+  - from-file: common-systemd.yml
+  - from-file: common-fonts.yml
+  - type: signing
