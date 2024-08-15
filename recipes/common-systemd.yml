@@ -3,3 +3,4 @@ system:
   enabled:
     - tailscaled.service
     - docker
+    - greetd.service

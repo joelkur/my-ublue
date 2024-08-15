@@ -3,8 +3,6 @@ install:
   - hyprland
   - kitty
   - dunst
-  - pipewire
-  - wireplumber
   - xdg-desktop-portal-hyprland
   - qt5-qtwayland
   - qt6-qtwayland
@@ -13,3 +11,19 @@ install:
   - hyprlock
   - foot
   - waybar
+
+  - pipewire
+  - wireplumber
+  - pamixer
+  - pulseaudio-utils
+
+  - network-manager-applet
+  - NetworkManager-openvpn
+  - NetworkManager-openconnect
+  - bluez
+  - bluez-tools
+  - blueman
+
+  - power-profiles-daemon
+
+  - swaylock
