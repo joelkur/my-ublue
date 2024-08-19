@@ -10,11 +10,13 @@ image-version: latest
 # module configuration, executed in order
 # you can include multiple instances of the same module
 modules:
-  - from-file: common-files.yml
+  - from-file: greetd-files.yml
+  - from-file: hyprland-files.yml
   - from-file: common-packages.yml
+  - from-file: greetd-packages.yml
   - from-file: hyprland-packages.yml
   - from-file: gaming-packages.yml
   - from-file: common-systemd.yml
-  - from-file: hyprland-systemd.yml
   - from-file: common-fonts.yml
+  - from-file: greetd-systemd.yml
   - type: signing

@@ -1,4 +1,4 @@
 type: systemd
 system:
   enabled:
-    - sddm-boot.service
+    - greetd-boot.service

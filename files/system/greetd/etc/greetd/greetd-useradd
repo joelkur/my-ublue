@@ -1,0 +1,4 @@
+#!/usr/bin/sh
+
+getent group video > /dev/null || groupadd -r video
+getent passwd greeter > /dev/null || useradd -r -g video -c "greetd Greeter Account" -d /var/lib/greetd -s /usr/sbin/nologin greeter
