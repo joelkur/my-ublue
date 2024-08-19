@@ -1,0 +1,13 @@
+type: rpm-ostree
+install:
+  - steam
+  - lutris
+  - wine-core
+  - wine-pulseaudio
+  - winetricks
+  - protontricks
+  - vkBasalt
+  - mangohud
+  - mesa-vulkan-drivers
+  - mesa-va-drivers-freeworld
+  - mesa-vdpau-drivers-freeworld

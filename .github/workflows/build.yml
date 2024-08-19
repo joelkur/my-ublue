@@ -24,6 +24,7 @@ jobs:
           # !! Add your recipes here 
           - recipe-sericea.yml
           - recipe-hyprland.yml
+          - recipe-hyprland-gaming.yml
     steps:
        # the build is fully handled by the reusable github action
       - name: Build Custom Image

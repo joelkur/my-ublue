@@ -27,3 +27,11 @@ install:
   - power-profiles-daemon
 
   - swaylock
+
+  - sddm
+  - sddm-themes
+  - qt5-qtgraphicaleffects
+  - qt5-qtquickcontrols
+  - qt5-qtsvg
+  - kwallet
+  - pam-kwallet
