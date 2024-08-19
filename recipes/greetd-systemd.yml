@@ -2,3 +2,4 @@ type: systemd
 system:
   enabled:
     - greetd-boot.service
+    - greetd.service
